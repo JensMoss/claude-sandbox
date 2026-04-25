@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /c/Users/jmnie/claude-sandbox && git add -A && changed=$(git diff --cached --name-only | tr '\\n' ' ' | sed 's/ *$//') && if [ -n \"$changed\" ]; then git commit -m \"Update: $changed\" && git push; fi 2>/dev/null || true",
+            "statusMessage": "Auto-committing changes to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}
