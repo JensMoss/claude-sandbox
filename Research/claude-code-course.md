@@ -27,6 +27,11 @@ Once deployed, you'd need a way to keep tabs on the app — catching bugs, handl
 - The course places heavy emphasis on customizing and setting up the **CLAUDE.md** file (likely referred to as README.md in the video — same concept).
 - Analogy used: it steers the ship. Claude reads this file at the start of every session to understand the project context, rules, and goals. A well-crafted CLAUDE.md keeps Claude heading in the right direction without needing repeated instructions.
 
+**Researching CLAUDE.md best practices via Twitter**
+- The instructor used a script or prompt to have Claude search Twitter and aggregate community knowledge on the best approaches to writing a CLAUDE.md for building and deploying web applications.
+- Technique: use Claude itself to do the research — pull in what experienced users are sharing publicly — then distill that into your own CLAUDE.md setup.
+- Exact details of the script/prompt unclear — revisit when covered in the course.
+
 ---
 
 ## Module 2: Building Web Applications
