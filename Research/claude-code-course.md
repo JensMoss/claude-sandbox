@@ -4,6 +4,23 @@
 
 ---
 
+## Feynman Baseline — What I Think I Know (Before Watching)
+
+*Written before going through the course material, to compare against what I actually learn.*
+
+**Giving Claude good instructions**
+To build a web app with Claude, you probably need to be precise about design — not just "make it look good" but actual design principles (typography, spacing, color, layout) and patterns (component structure, navigation conventions). Architectural clarity likely matters too: telling Claude what kind of app it is, how data flows, and how it's structured.
+
+**Deployment**
+There are probably multiple hosting/deployment options covered — things like Vercel, Netlify, GitHub Pages for static sites, or cloud providers (AWS, GCP, Azure) for more complex apps. The course likely walks through how to go from code to a live URL.
+
+**Maintenance and monitoring**
+Once deployed, you'd need a way to keep tabs on the app — catching bugs, handling errors, and knowing when something breaks. This could involve error tracking services (like Sentry), logging, or uptime monitoring. Some feedback loop to stay informed about how the app is running in production.
+
+*— Compare this section against the course notes below as you progress through the course.*
+
+---
+
 ## Module 1: Setup
 
 ### CLAUDE.md (the "steering the ship" file)
