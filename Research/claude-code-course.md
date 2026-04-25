@@ -1,6 +1,6 @@
 # Claude Code Course Notes
 
-Source: YouTube course on setting up Claude Code and building web applications.
+**Source:** [CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)](https://www.youtube.com/watch?v=QoQBzR1NIqI&t=1085s)
 
 ---
 

@@ -21,7 +21,8 @@
       "PowerShell($env:GOOGLE_OAUTH_CREDENTIALS = \"C:\\\\Users\\\\jmnie\\\\APIs\\\\client_secret_229863335590-1flf1h6mmh9qfk1bv0qs4j40osv1h2vg.apps.googleusercontent.com.json\"; & \"C:\\\\Users\\\\jmnie\\\\.claude\\\\run-gcal-mcp.bat\" 2>&1 | Select-Object -First 30)",
       "mcp__google-calendar__list-events",
       "mcp__google-calendar__create-event",
-      "Bash(gh api *)"
+      "Bash(gh api *)",
+      "WebFetch(domain:www.youtube.com)"
     ]
   }
 }
