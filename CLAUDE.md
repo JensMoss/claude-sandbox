@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Purpose
 
-Personal sandbox for experimenting with Claude Code features. No build system, tests, or application code — this repo exists to try things out.
+Learning environment for exploring Claude Code capabilities. No build system, tests, or application code — this repo exists to practice and experiment with Claude Code features, workflows, and integrations.
 
 ## Auto-commit Hook
 
