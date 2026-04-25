@@ -17,7 +17,8 @@
       "PowerShell([System.Environment]::GetEnvironmentVariable\\('PATH', 'Machine'\\) -split ';' | Where-Object { $_ -match 'node|npm' })",
       "PowerShell(& \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" --version; & \"C:\\\\Program Files\\\\nodejs\\\\npx.cmd\" --version)",
       "PowerShell($env:GOOGLE_OAUTH_CREDENTIALS = \"C:\\\\Users\\\\jmnie\\\\APIs\\\\client_secret_229863335590-1flf1h6mmh9qfk1bv0qs4j40osv1h2vg.apps.googleusercontent.com.json\"; & \"C:\\\\Program Files\\\\nodejs\\\\npx.cmd\" -y @cocal/google-calendar-mcp 2>&1 | Select-Object -First 30)",
-      "PowerShell($env:GOOGLE_OAUTH_CREDENTIALS = \"C:\\\\Users\\\\jmnie\\\\APIs\\\\client_secret_229863335590-1flf1h6mmh9qfk1bv0qs4j40osv1h2vg.apps.googleusercontent.com.json\"; & \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Program Files\\\\nodejs\\\\node_modules\\\\npm\\\\bin\\\\npx-cli.js\" -y @cocal/google-calendar-mcp 2>&1 | Select-Object -First 30)"
+      "PowerShell($env:GOOGLE_OAUTH_CREDENTIALS = \"C:\\\\Users\\\\jmnie\\\\APIs\\\\client_secret_229863335590-1flf1h6mmh9qfk1bv0qs4j40osv1h2vg.apps.googleusercontent.com.json\"; & \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Program Files\\\\nodejs\\\\node_modules\\\\npm\\\\bin\\\\npx-cli.js\" -y @cocal/google-calendar-mcp 2>&1 | Select-Object -First 30)",
+      "PowerShell($env:GOOGLE_OAUTH_CREDENTIALS = \"C:\\\\Users\\\\jmnie\\\\APIs\\\\client_secret_229863335590-1flf1h6mmh9qfk1bv0qs4j40osv1h2vg.apps.googleusercontent.com.json\"; & \"C:\\\\Users\\\\jmnie\\\\.claude\\\\run-gcal-mcp.bat\" 2>&1 | Select-Object -First 30)"
     ]
   }
 }
