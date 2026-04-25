@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(code C:\\\\Users\\\\jmnie\\\\claude-sandbox *)"
+      "Bash(code C:\\\\Users\\\\jmnie\\\\claude-sandbox *)",
+      "WebSearch",
+      "WebFetch(domain:developers.google.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(claude mcp *)",
+      "Bash(npm --version)"
     ]
   }
 }
